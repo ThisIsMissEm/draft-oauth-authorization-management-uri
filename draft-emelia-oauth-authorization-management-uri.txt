@@ -9,7 +9,7 @@ Expires: 21 May 2026
 
 
                    OAuth Authorization Management URI
-                draft-oauth-authorization-management-uri
+            draft-emelia-oauth-authorization-management-uri
 
 Abstract
 
@@ -25,7 +25,7 @@ About This Document
    The latest revision of this draft can be found at
    https://thisismissem.github.io/draft-oauth-authorization-management-
    uri/.  Status information for this document may be found at
-   https://datatracker.ietf.org/doc/draft-oauth-authorization-
+   https://datatracker.ietf.org/doc/draft-emelia-oauth-authorization-
    management/.
 
    Discussion of this document takes place on the Web Authorization
@@ -154,8 +154,8 @@ Table of Contents
 
    *  Change Controller: IETF
 
-   *  Specification Document: [draft-oauth-authorization-management-uri-
-      00]
+   *  Specification Document: [draft-emelia-oauth-authorization-
+      management-uri-latest]
 
 6.  Normative References
 
