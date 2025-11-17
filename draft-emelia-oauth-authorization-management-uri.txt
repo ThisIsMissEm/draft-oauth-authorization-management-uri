@@ -129,8 +129,8 @@ Table of Contents
 4.  Security Considerations
 
    This specification does not define how the Authorization Server
-   should security the authorization management UI.  Authorization
-   Servers should take appropriate measures to ensure that the user is
+   should secure the authorization management UI.  Authorization Servers
+   should take appropriate measures to ensure that the user is
    authenticated and authorized to view the authorization management UI.
 
    The OAuth Client MUST NOT open the authorization_management_uri in a
