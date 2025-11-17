@@ -83,7 +83,7 @@ To allow OAuth Clients to discover the URI of this user interface, this specific
 
 # Security Considerations
 
-This specification does not define how the Authorization Server should security the authorization management UI. Authorization Servers should take appropriate measures to ensure that the user is authenticated and authorized to view the authorization management UI.
+This specification does not define how the Authorization Server should secure the authorization management UI. Authorization Servers should take appropriate measures to ensure that the user is authenticated and authorized to view the authorization management UI.
 
 The OAuth Client MUST NOT open the `authorization_management_uri` in a webview or similar embedded browser, and instead delegate that to the users' default browser, such that the OAuth Client has no access to the account credentials or to other sensitive data.
 
