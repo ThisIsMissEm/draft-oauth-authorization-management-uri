@@ -23,7 +23,7 @@ title: "OAuth Authorization Management URI"
 abbrev: "oauth-auth-management-uri"
 category: std
 
-docname: draft-emelia-oauth-authorization-management-uri
+docname: draft-emelia-oauth-authorization-management-uri-latest
 submissiontype: IETF
 number:
 date:
