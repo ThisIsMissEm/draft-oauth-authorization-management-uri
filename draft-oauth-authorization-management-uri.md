@@ -37,7 +37,7 @@ venue:
   group: "Web Authorization Protocol"
   type: "Working Group"
   mail: "oauth@ietf.org"
-  github: "oauth-wg/draft-ietf-oauth-client-id-metadata-document"
+  github: "ThisIsMissEm/draft-oauth-authorization-management-uri"
   latest: "https://thisismissem.github.io/draft-oauth-authorization-management-uri/"
 
 author:
