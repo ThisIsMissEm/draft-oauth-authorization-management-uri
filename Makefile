@@ -13,3 +13,6 @@ else
 	    https://github.com/martinthomson/i-d-template $(LIBDIR)
 endif
 endif
+
+serve:
+	python -m http.server -b 127.0.0.1 4000
