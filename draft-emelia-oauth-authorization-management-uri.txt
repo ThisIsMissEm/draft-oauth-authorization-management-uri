@@ -9,7 +9,7 @@ Expires: 21 May 2026
 
 
                    OAuth Authorization Management URI
-            draft-emelia-oauth-authorization-management-uri
+         draft-emelia-oauth-authorization-management-uri-latest
 
 Abstract
 
@@ -26,7 +26,7 @@ About This Document
    https://thisismissem.github.io/draft-oauth-authorization-management-
    uri/.  Status information for this document may be found at
    https://datatracker.ietf.org/doc/draft-emelia-oauth-authorization-
-   management/.
+   management-uri/.
 
    Discussion of this document takes place on the Web Authorization
    Protocol Working Group mailing list (mailto:oauth@ietf.org), which is
