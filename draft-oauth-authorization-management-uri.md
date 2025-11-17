@@ -20,10 +20,10 @@
 #
 ###
 title: "OAuth Authorization Management URI"
-abbrev: "oauth-authorization-management-uri"
+abbrev: "oauth-auth-management-uri"
 category: std
 
-docname: draft-oauth-authorization-management-uri
+docname: draft-emelia-oauth-authorization-management-uri
 submissiontype: IETF
 number:
 date:
@@ -53,7 +53,7 @@ normative:
 informative:
 
 entity:
-  SELF: "[draft-oauth-authorization-management-uri-latest]"
+  SELF: "[draft-emelia-oauth-authorization-management-uri-latest]"
 
 ...
 
@@ -97,6 +97,6 @@ The following authorization server metadata value is defined by this specificati
 * Metadata Name: authorization_management_uri
 * Metadata Description: URI of the authorization management user interface provided by the Authorization Server.
 * Change Controller: IETF
-* Specification Document: [draft-oauth-authorization-management-uri-00]
+* Specification Document: [draft-emelia-oauth-authorization-management-uri-latest]
 
 --- back
