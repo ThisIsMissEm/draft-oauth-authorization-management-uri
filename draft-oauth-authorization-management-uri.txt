@@ -34,8 +34,8 @@ About This Document
    Subscribe at https://www.ietf.org/mailman/listinfo/oauth/.
 
    Source for this draft and an issue tracker can be found at
-   https://github.com/oauth-wg/draft-ietf-oauth-client-id-metadata-
-   document.
+   https://github.com/ThisIsMissEm/draft-oauth-authorization-management-
+   uri.
 
 Status of This Memo
 
