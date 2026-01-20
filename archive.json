@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-01-18T00:41:45.525563+00:00",
+  "timestamp": "2026-01-20T00:36:59.609356+00:00",
   "repo": "ThisIsMissEm/draft-oauth-authorization-management-uri",
   "labels": [
     {
@@ -49,6 +49,71 @@
       "color": "ffffff"
     }
   ],
-  "issues": [],
+  "issues": [
+    {
+      "number": 1,
+      "id": "I_kwDOQXkwmc7kHvVk",
+      "title": "Add a client_id_hint and login_hint parameters",
+      "url": "https://github.com/ThisIsMissEm/draft-oauth-authorization-management-uri/issues/1",
+      "state": "OPEN",
+      "author": "ThisIsMissEm",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "The `client_id_hint` allows indicating to the authorization server which client has requested the page, this would allow for the authorization server to take the user directly to that specific client's authorization grants upon opening the page.\n\nA `login_hint` would allow prefilling of the username field for the account login that would likely be required when opening the authorization management UI.",
+      "createdAt": "2026-01-18T19:46:05Z",
+      "updatedAt": "2026-01-18T19:46:05Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 2,
+      "id": "I_kwDOQXkwmc7kHwDk",
+      "title": "Rename to `user_authorization_management_uri`",
+      "url": "https://github.com/ThisIsMissEm/draft-oauth-authorization-management-uri/issues/2",
+      "state": "OPEN",
+      "author": "ThisIsMissEm",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "This clarifies that it's intended for user access, not machine access.",
+      "createdAt": "2026-01-18T19:48:02Z",
+      "updatedAt": "2026-01-18T19:48:02Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 3,
+      "id": "I_kwDOQXkwmc7kHwpg",
+      "title": "Add wording that the authorization management page doesn't not allow increasing scope",
+      "url": "https://github.com/ThisIsMissEm/draft-oauth-authorization-management-uri/issues/3",
+      "state": "OPEN",
+      "author": "ThisIsMissEm",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "From the mailing list: https://mailarchive.ietf.org/arch/msg/oauth/fZjMSaozffuOYOjTXRiByvSYvJ8/\n\n> Maybe add some wording that the page should only allow viewing and revoking grants, not increasing scope or adding new grants (which would use a normal OAuth flow).\n\nThis is indeed the case, it's only for viewing and revoking grants, any other changes should happen via a normal OAuth flow.",
+      "createdAt": "2026-01-18T19:49:30Z",
+      "updatedAt": "2026-01-18T19:49:30Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 4,
+      "id": "I_kwDOQXkwmc7kHzCo",
+      "title": "Potentially reference other internet drafts",
+      "url": "https://github.com/ThisIsMissEm/draft-oauth-authorization-management-uri/issues/4",
+      "state": "OPEN",
+      "author": "ThisIsMissEm",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "- FAPI Grant Management, and why this may not be desirable: https://openid.net/specs/oauth-v2-grant-management-ID1.html\n- Token Revocation endpoint (RFC 7009) \n- Dynamic Client Registration Management API (RFC 7592)\n\nWhich each solve different orthogonal problems.",
+      "createdAt": "2026-01-18T19:55:48Z",
+      "updatedAt": "2026-01-18T19:55:48Z",
+      "closedAt": null,
+      "comments": []
+    }
+  ],
   "pulls": []
 }
